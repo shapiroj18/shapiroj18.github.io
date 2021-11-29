@@ -54,6 +54,14 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.description a:hover,
+.description a:focus,
+.description a:active {
+  text-decoration: underline;
 }
 
 .code {

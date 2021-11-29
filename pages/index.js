@@ -27,15 +27,13 @@ export default function Home() {
           </Link>
         </p>
         <p className={styles.title}>
-          Read{' '} 
-          <Link href="/project-scratch/chemical-refs">
-            <a>this page!</a>
-          </Link>
+          Hi, I&apos;m Jonathan!
         </p>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          For now this is a playground project.
+          In the meantime, check out my project ideas under&nbsp;
+          <Link href="project-scratch"><a>project scratch</a></Link>.
         </p>
 
         <div className={styles.grid}>

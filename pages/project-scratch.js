@@ -27,6 +27,11 @@ export default function Home() {
             <a>contact</a>
           </Link>
         </p>
+        <p className={styles.description}>
+        <ul>
+            <li>Automated Compounds Naming and Paper References</li>
+        </ul>
+        </p>
         </main>
     </div>
     )}
