@@ -10,7 +10,6 @@ export default function Home() {
         <Head>
           <title>Jonathan&apos;s Personal Site</title>
           <meta name="description" content="" />
-          <link rel="icon" href="/images/favicon.ico" />
         </Head>
   
         <main className={styles.main}>

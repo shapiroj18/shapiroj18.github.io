@@ -8,9 +8,8 @@ export default function Home() {
     return (
       <div className={styles.container}>
         <Head>
-          <title>Jonathan&apos;s Personal Site</title>
+          <title>Project Scratch</title>
           <meta name="description" content="" />
-          <link rel="icon" href="/images/favicon.ico" />
         </Head>
   
         <main className={styles.main}>
@@ -27,11 +26,17 @@ export default function Home() {
             <a>contact</a>
           </Link>
         </p>
-        <p className={styles.description}>
-        <ul>
-            <li>Automated Compounds Naming and Paper References</li>
-        </ul>
+        <p className={styles.title}>
+          Project Ideas and Scratch
         </p>
+        <div className={styles.grid}>
+          <a href="project-scratch/chemical-refs" className={styles.card}>
+            <h2>Auto-Compounds&nbsp;&rarr;</h2>
+            <p>
+            I remember writing my thesis in organic chemistry for undergrad how difficult it was to use placeholders for all of my numbered compounds and references. It would be great to build a program that could automate the naming and references for papers. 
+            </p>
+          </a>
+        </div>
         </main>
     </div>
     )}
