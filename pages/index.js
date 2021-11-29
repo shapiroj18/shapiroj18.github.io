@@ -13,12 +13,25 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <p className={styles.grid}>
+          <Link href="/">
+            <a>main</a>
+          </Link>
+          &nbsp;{'/'}&nbsp;
+          <Link href="project-scratch">
+            <a>project scratch</a>
+          </Link>
+          &nbsp;{'/'}&nbsp;
+          <Link href="contact">
+            <a>contact</a>
+          </Link>
+        </p>
+        <p className={styles.title}>
           Read{' '} 
           <Link href="/project-scratch/chemical-refs">
             <a>this page!</a>
           </Link>
-        </h1>
+        </p>
 
         <p className={styles.description}>
           Get started by editing{' '}
