@@ -13,19 +13,7 @@ export default function Home() {
         </Head>
   
         <main className={styles.main}>
-        <p className={styles.grid}>
-          <Link href="/">
-            <a>main</a>
-          </Link>
-          &nbsp;&nbsp;{'/'}&nbsp;&nbsp;
-          <Link href="project-scratch">
-            <a>project scratch</a>
-          </Link>
-          &nbsp;&nbsp;{'/'}&nbsp;&nbsp;
-          <Link href="contact">
-            <a>contact</a>
-          </Link>
-        </p>
+        
         </main>
     </div>
     )}
