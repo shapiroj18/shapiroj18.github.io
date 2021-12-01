@@ -5,6 +5,18 @@ import styles from '../../styles/Home.module.css'
 
 
 export default function Index({ projectScratchData }) {
+
+    let projectScratchDataList = projectScratchData.map((item, index) => {
+      return (
+        <a href="project-scratch/chemical-refs" className={styles.card}>
+            <h2>{projectScratchData[index]['header']}&nbsp;&rarr;</h2>
+            <p>
+            {projectScratchData[index]['description']}
+            </p>
+        </a>
+      )
+    })
+
     return (
       <div className={styles.container}>
         <Head>
@@ -17,12 +29,7 @@ export default function Index({ projectScratchData }) {
           Project Ideas and Scratch Work
         </p>
         <div className={styles.grid}>
-          <a href="project-scratch/chemical-refs" className={styles.card}>
-            <h2>{projectScratchData[0]['header']}&nbsp;&rarr;</h2>
-            <p>
-            {projectScratchData[0]['description']}
-            </p>
-          </a>
+          {projectScratchDataList}
         </div>
         </main>
     </div>
