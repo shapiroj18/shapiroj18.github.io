@@ -4,7 +4,7 @@ import path from 'path'
 import styles from '../../styles/Home.module.css'
 
 
-export default function Index({ projectScratchData }) {
+export default function projectScratchIndex({ projectScratchData }) {
 
     let projectScratchDataList = projectScratchData.map((item, index) => {
       return (
