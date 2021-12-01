@@ -9,3 +9,4 @@
 * Add site analytics
 * Add site SEO
 * Add [flow-field](https://github.com/romellogoodman/flow-field.js)
+* Add a 404 page
