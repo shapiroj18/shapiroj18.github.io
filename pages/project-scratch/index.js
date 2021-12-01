@@ -8,7 +8,7 @@ export default function Index({ projectScratchData }) {
 
     let projectScratchDataList = projectScratchData.map((item, index) => {
       return (
-        <a href="project-scratch/chemical-refs" className={styles.card}>
+        <a href="project-scratch/chemical-refs" className={styles.card} key={projectScratchData['id']}>
             <h2>{projectScratchData[index]['header']}&nbsp;&rarr;</h2>
             <p>
             {projectScratchData[index]['description']}
