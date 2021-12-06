@@ -12,13 +12,15 @@ export default function Project({ projectData }) {
         </Head>
   
         <main className={styles.main}>
-        <p>{ projectData.author }</p>
+        <p>{ projectData['content'] }</p>
         </main>
     </div>
     )}
 
 export async function getStaticProps({ params }) {
   const projectData = getProjectData(params.project)
+
+  console.log(projectData)
   return {
     props: {
       projectData
