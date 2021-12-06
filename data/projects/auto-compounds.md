@@ -3,9 +3,4 @@ project: auto-compounds
 author: Jonathan Shapiro
 ---
 
-I **love** using [Next.js](https://nextjs.org/)
-# It's very cool
-
-```python
-print('hello there')
-```
+Of note, this may already exist. For example, [konwerter](http://piti.exroot.org/konwerter/about/index.html) seems to do this for compounds with Latex.

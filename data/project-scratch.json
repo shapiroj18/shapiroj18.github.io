@@ -4,7 +4,7 @@
         "project": "auto-compounds",
         "header": "Auto-Compounds",
         "description": "I remember writing my thesis in organic chemistry for undergrad how difficult it was to use placeholders for all of my numbered compounds and references. It would be great to build a program that could automate the naming and references for papers.",
-        "priority": "high",
+        "priority": "medium",
         "tags": "chemistry"
     },
     {
@@ -12,6 +12,14 @@
         "project": "chore-chart",
         "header": "Chore Chart",
         "description": "Set up a reminder system with individualized reminders about what chores are due in advance.",
+        "priority": "low",
+        "tags": "automation"
+    },
+    {
+        "id": "3",
+        "project": "jobs-scraper",
+        "header": "Jobs Scraper",
+        "description": "It would be nice to have job alerts for specific organizations you are following. Could look generally at something like Linkedin/Indeed, or pull data from specific org websites.",
         "priority": "low",
         "tags": "automation"
     }
