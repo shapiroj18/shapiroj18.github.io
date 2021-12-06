@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import ReactMarkdown from 'react-markdown'
 import { getAllProjects, getProjectData } from '../../lib/projects'
 import styles from '../../styles/Home.module.css'
 
@@ -12,7 +13,7 @@ export default function Project({ projectData }) {
         </Head>
   
         <main className={styles.main}>
-        <p>{ projectData['content'] }</p>
+        <ReactMarkdown>{ projectData['content'] }</ReactMarkdown>
         </main>
     </div>
     )}
@@ -20,7 +21,6 @@ export default function Project({ projectData }) {
 export async function getStaticProps({ params }) {
   const projectData = getProjectData(params.project)
 
-  console.log(projectData)
   return {
     props: {
       projectData
