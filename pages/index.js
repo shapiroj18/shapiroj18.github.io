@@ -6,7 +6,7 @@ export default function homeIndex() {
   return (
     <div className={styles.container}>
       <Head>
-        <title> .·.¸&gt;&lt;(((º&gt;</title>
+        <title>&nbsp;¸.·´`·.¸&gt;&lt;(((º&gt;</title>
         <meta name="description" content="" />
       </Head>
 
