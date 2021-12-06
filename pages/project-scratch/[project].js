@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { getAllProjects, getProjectData } from '../../lib/projects'
 import styles from '../../styles/Home.module.css'
 
 
@@ -11,26 +12,25 @@ export default function Project({ projectData }) {
         </Head>
   
         <main className={styles.main}>
-        <p>{ projectData }</p>
+        <p>{ projectData.author }</p>
         </main>
     </div>
     )}
 
 export async function getStaticProps({ params }) {
-  const projectData = params.project
+  const projectData = getProjectData(params.project)
   return {
     props: {
       projectData
     }
   }
-} 
+}
 
 export async function getStaticPaths() {
-    return {
-      paths: [
-        { params: { project: '1' } },
-        { params: { project: '2' } }
-      ],
-      fallback: false
-    }
+
+  const paths = getAllProjects()
+  return {
+    paths,
+    fallback: false
   }
+}
