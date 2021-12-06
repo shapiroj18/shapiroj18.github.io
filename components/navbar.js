@@ -13,11 +13,11 @@ export default function Navbar({ children }) {
             <a>main</a>
         </Link>
         &nbsp;&nbsp;{'/'}&nbsp;&nbsp;
-        <Link href="project-scratch">
+        <Link href="/project-scratch">
             <a>project scratch</a>
         </Link>
         &nbsp;&nbsp;{'/'}&nbsp;&nbsp;
-        <Link href="contact">
+        <Link href="/contact">
             <a>contact</a>
         </Link>
         </p>
