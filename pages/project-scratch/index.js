@@ -8,7 +8,7 @@ export default function projectScratchIndex({ projectScratchData }) {
 
     let projectScratchDataList = projectScratchData.map((item, index) => {
       return (
-        <a href="project-scratch/1" className={styles.card} key={projectScratchData['id']}>
+        <a href={"project-scratch/" + projectScratchData[index]['title']} className={styles.card} key={projectScratchData['id']}>
             <h2>{projectScratchData[index]['header']}&nbsp;&rarr;</h2>
             <p>
             {projectScratchData[index]['description']}
