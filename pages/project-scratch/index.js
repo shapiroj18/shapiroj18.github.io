@@ -34,7 +34,7 @@ export default function projectScratchIndex({ projectScratchData }) {
           Project Ideas and Scratch Work
         </p>
         <p className={styles.description}>
-        A list of random project ideas I've had, some of which I have worked on.
+        A list of random project ideas I&apos;ve had, some of which I have worked on.
         </p>
         <div className={styles.grid}>
           {projectScratchDataList}

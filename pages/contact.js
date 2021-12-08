@@ -19,7 +19,7 @@ export default function Contact() {
           />
           <h2>Contact</h2>
             <br/>
-            <a className={styles.contactlinks} href="https://github.com/shapiroj18" target="_blank">
+            <a className={styles.contactlinks} href="https://github.com/shapiroj18">
             <img 
               src="/images/github.png"
               width="25"
@@ -27,7 +27,7 @@ export default function Contact() {
             &nbsp;GitHub
             </a>
             <br/>
-            <a className={styles.contactlinks} href="https://www.linkedin.com/in/jonathan-shapiro/" target="_blank">
+            <a className={styles.contactlinks} href="https://www.linkedin.com/in/jonathan-shapiro/">
             <img 
               src="/images/linkedin.png"
               width="25"
@@ -35,7 +35,7 @@ export default function Contact() {
             &nbsp;LinkedIn
             </a>
             <br/>
-            <a className={styles.contactlinks} href="https://medium.com/@jonshapiro_53366" target="_blank">
+            <a className={styles.contactlinks} href="https://medium.com/@jonshapiro_53366">
             <img 
               src="/images/medium.png"
               width="25"
