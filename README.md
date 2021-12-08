@@ -12,6 +12,4 @@
 ## To-Do:
 * Make site mobile friendly
 * Add site analytics
-* Add site SEO
-* Add [flow-field](https://github.com/romellogoodman/flow-field.js)
 * Add portfolio page
