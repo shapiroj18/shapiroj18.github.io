@@ -3,7 +3,7 @@
         "id": "1",
         "project": "auto-compounds",
         "header": "Auto-Compounds",
-        "description": "I remember writing my thesis in organic chemistry for undergrad how difficult it was to use placeholders for all of my numbered compounds and references. It would be great to build a program that could automate the naming and references for papers.",
+        "description": "Software that could automatically generates numbers for references and chemical compounds for papers.",
         "priority": "medium",
         "tags": "chemistry",
         "status": "not started"
@@ -12,7 +12,7 @@
         "id": "2",
         "project": "chore-chart",
         "header": "Chore Chart",
-        "description": "Set up a reminder system with individualized reminders about what chores are due in advance.",
+        "description": "Individualized email reminders about what chores are due in advance.",
         "priority": "low",
         "tags": "automation",
         "status": "completed"
