@@ -22,6 +22,7 @@ export default function Contact() {
             <a className={styles.contactlinks} href="https://github.com/shapiroj18">
             <img 
               src="/images/github.png"
+              alt="github"
               width="25"
             />
             &nbsp;GitHub
@@ -30,6 +31,7 @@ export default function Contact() {
             <a className={styles.contactlinks} href="https://www.linkedin.com/in/jonathan-shapiro/">
             <img 
               src="/images/linkedin.png"
+              alt="linkedin"
               width="25"
             />
             &nbsp;LinkedIn
@@ -38,6 +40,7 @@ export default function Contact() {
             <a className={styles.contactlinks} href="https://medium.com/@jonshapiro_53366">
             <img 
               src="/images/medium.png"
+              alt="medium"
               width="25"
             />
             &nbsp;Medium
