@@ -10,7 +10,8 @@
 * Display Markdown: [react-markdown](https://github.com/remarkjs/react-markdown)
 
 ## To-Do:
+* Make site mobile friendly
 * Add site analytics
 * Add site SEO
 * Add [flow-field](https://github.com/romellogoodman/flow-field.js)
-* Add a 404 page
+* Add portfolio page

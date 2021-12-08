@@ -13,7 +13,9 @@ export default function Project({ projectData }) {
         </Head>
   
         <main className={styles.main}>
-        <ReactMarkdown>{ projectData['content'] }</ReactMarkdown>
+        <p className={styles.scratch}>
+          <ReactMarkdown linkTarget="_blank">{ projectData['content'] }</ReactMarkdown>
+        </p>
         </main>
     </div>
     )}

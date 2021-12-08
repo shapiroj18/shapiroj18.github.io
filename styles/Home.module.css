@@ -3,7 +3,6 @@
 }
 
 .main {
-  padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -115,6 +114,31 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.scratch {
+  max-width: 50%;
+}
+
+.scratch b {
+  text-align: center;
+}
+
+.photoprofile {
+  border-radius: 25% 10%;
+  border: 1px solid #000000;
+  position: absolute;
+  left: 250px;
+}
+
+.contactlinks {
+  color: #3d405b;
+  font-weight: bold;
+}
+
+.contactlinks:hover,
+.contactlinks:active {
+  text-decoration: underline #f2cc8f double;
 }
 
 @media (max-width: 600px) {
