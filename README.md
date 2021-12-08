@@ -11,5 +11,4 @@
 
 ## To-Do:
 * Make site mobile friendly
-* Add site analytics
 * Add portfolio page
