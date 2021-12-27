@@ -17,3 +17,14 @@ With regards to the batch job, it would be great to do something like:
 ```
 Get dataset from REST API or other >> Upload to data repository like PostgreSQL using Node SQL ORM >> Visualize with D3.js >> Email report with Node
 ```
+
+## Dataset ideas
+
+Thank you to this [compiled api list](https://github.com/public-apis/public-apis#music)
+
+* NASA open data
+* Meetup Events
+* Number of concerts and times from songkick api and then look at transportation load?
+* Wikimedia recent wikipedia [updates](https://meta.wikimedia.org/wiki/IRC/Channels#Recent_changes)
+* Humanitarian Open Data such as [Yemen - Requirements and Funding Data](https://data.humdata.org/dataset/fts-requirements-and-funding-data-for-yemen)
+
