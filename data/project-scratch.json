@@ -183,7 +183,7 @@
         "id": "21",
         "project": "social-rado",
         "header": "Social Radio",
-        "description": "Tune into friends livestreaming radio. They can put on playlists through spotify, talk, etc.",
+        "description": "Tune into friends livestreaming radio. They can put on playlists through spotify, talk, etc. Shell/Electron/Tauri app would be fun to experiment with.",
         "priority": "high",
         "tags": "",
         "status": "not started"
