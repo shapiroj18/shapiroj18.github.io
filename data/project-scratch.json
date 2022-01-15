@@ -181,9 +181,18 @@
     },
     {
         "id": "21",
-        "project": "social-rado",
+        "project": "social-radio",
         "header": "Social Radio",
         "description": "Tune into friends livestreaming radio. They can put on playlists through spotify, talk, etc. Shell/Electron/Tauri app would be fun to experiment with.",
+        "priority": "high",
+        "tags": "",
+        "status": "not started"
+    },
+    {
+        "id": "22",
+        "project": "screenshot-helper",
+        "header": "Screenshot Helper",
+        "description": "An application that allows you to screenshot web pages and automatically generates (and stores?) a qr code or short url so you can easily access again.",
         "priority": "high",
         "tags": "",
         "status": "not started"
