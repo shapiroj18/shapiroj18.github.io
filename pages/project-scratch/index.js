@@ -9,7 +9,6 @@ export default function projectScratchIndex({ projectScratchData }) {
     let sortingArr = ["high", "medium", "low"]
 
     let itemsArray = projectScratchData.sort((a, b) => sortingArr.indexOf(a["priority"]) - sortingArr.indexOf(b["priority"]));
-    console.log(itemsArray)
 
     let projectScratchDataList = itemsArray.map((item, index) => {
       return (
