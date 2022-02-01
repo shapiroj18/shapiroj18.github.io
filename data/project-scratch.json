@@ -196,5 +196,23 @@
         "priority": "high",
         "tags": "",
         "status": "not started"
+    },
+    {
+        "id": "23",
+        "project": "animals-calendar",
+        "header": "Animals Calendar Generator",
+        "description": "Generate automatic calendars from a collection of photos you upload so user can get personalized animal calendars",
+        "priority": "low",
+        "tags": "",
+        "status": "not started"
+    },
+    {
+        "id": "24",
+        "project": "react-component-generator",
+        "header": "React Components Generator",
+        "description": "Draw something on a piece of paper that can be photgraphed and turned into React components",
+        "priority": "medium",
+        "tags": "",
+        "status": "not started"
     }
 ]
