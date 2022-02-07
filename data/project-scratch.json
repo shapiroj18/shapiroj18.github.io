@@ -214,5 +214,23 @@
         "priority": "medium",
         "tags": "",
         "status": "not started"
+    },
+    {
+        "id": "25",
+        "project": "jeopardy-api",
+        "header": "Jeopardy API",
+        "description": "Build an updated jeopardy api (one exists at jservice.io, but doesn't include certain endpoints, like show summaries, etc). Data is stored in j-archive.com and can be scraped, also reached out to admins about access to a database.",
+        "priority": "medium",
+        "tags": "",
+        "status": "not started"
+    },
+    {
+        "id": "26",
+        "project": "digital-harmonograph",
+        "header": "Digital Harmonograph",
+        "description": "Build a harmonograph in either a frontend web app, javascript library for d3, etc. Resources here: https://en.wikipedia.org/wiki/Harmonograph / https://javascript.plainenglish.io/the-digital-harmonograph-b932fd3e6c2e.",
+        "priority": "medium",
+        "tags": "",
+        "status": "not started"
     }
 ]
