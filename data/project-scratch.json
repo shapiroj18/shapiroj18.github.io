@@ -228,7 +228,7 @@
         "id": "26",
         "project": "digital-harmonograph",
         "header": "Digital Harmonograph",
-        "description": "Build a harmonograph in either a frontend web app, javascript library for d3, etc. Resources here: https://en.wikipedia.org/wiki/Harmonograph / https://javascript.plainenglish.io/the-digital-harmonograph-b932fd3e6c2e.",
+        "description": "Build a harmonograph in either a frontend web app, javascript library for d3, etc.",
         "priority": "medium",
         "tags": "",
         "status": "not started"
