@@ -232,5 +232,104 @@
         "priority": "medium",
         "tags": "",
         "status": "not started"
+    },
+    {
+        "id": "27",
+        "project": "bluetooth-manager",
+        "header": "Bluetooth Manager",
+        "description": "Switching between computers with Bluetooth and phone is such a pain. Wouldn't it be nice to have an app that could choose which device is connecting to the bluetooth device?",
+        "priority": "low",
+        "tags": "",
+        "status": "not started"  
+    },
+    {
+        "id": "28",
+        "project": "graphing-calculator",
+        "header": "Graphing Calculator",
+        "description": "Build an open source graphing calculator a la TI-84 plus. Could be a web application, terminal utility, mobile app, etc.",
+        "priority": "low",
+        "tags": "",
+        "status": "not started"
+    },
+    {
+        "id": "29",
+        "project": "random-wiki",
+        "header": "Random Wiki",
+        "description": "CLI that allows you to access the text of a random wikipedia page. Think about all of the cool things you could learn!",
+        "priority": "low",
+        "tags": "",
+        "status": "not started"
+    },
+    {
+        "id": "30",
+        "project": "photo-translator",
+        "header": "Photo Translator",
+        "description": "Take a photo of text and have it instantly translated!",
+        "priority": "low",
+        "tags": "",
+        "status": "not started"  
+    },
+    {
+        "id": "31",
+        "project": "military-actions-tracker",
+        "header": "Military Actions Tracker",
+        "description": "Map that updates in real time showing military actions by the US. As citizens, we should be able to know how and when the US is using weapons.",
+        "priority": "medium",
+        "tags": "",
+        "status": "not started"
+    },
+    {
+        "id": "33",
+        "project": "grep-websites",
+        "header": "Grep Websites",
+        "description": "Look through website endpoints and find specific regex, etc. Can either use site mappings to go through full websites or individual pages.",
+        "priority": "medium",
+        "tags": "",
+        "status": "not started"
+    },
+    {
+        "id": "34",
+        "project": "bus-pattern-clothing",
+        "header": "Bus Pattern Clothing",
+        "description": "Bus patterns are whacky. People gotta be able to wear that on their persons.",
+        "priority": "medium",
+        "tags": "",
+        "status": "not started"  
+    },
+    {
+        "id": "35",
+        "project": "headphone-jumbles",
+        "header": "Headphone jumbles",
+        "description": "Create a simulation of headphones getting jumbled in a pocket with initial conditions and amount of time.",
+        "priority": "medium",
+        "tags": "",
+        "status": "not started"
+    },
+    {
+        "id": "36",
+        "project": "bird-calls-identifier",
+        "header": "Bird Calls Identifier",
+        "description": "Have your phone be able to identify birds by their calls.",
+        "priority": "low",
+        "tags": "",
+        "status": "not started"
+    },
+    {
+        "id": "37",
+        "project": "keyboard-shortcuts",
+        "header": "Keyboard Shortcuts",
+        "description": "I use a software called better touch tools to create global keyboard shorcuts on my mac. Is there a way to build an open source version of this? If so, maybe having a dotfile config that is sourced for configurations would make it extensible.",
+        "priority": "medium",
+        "tags": "",
+        "status": "not started"
+    },
+    {
+        "id": "38",
+        "project": "git-glance",
+        "header": "Git Glance",
+        "description": "Pre-commit hook that lets you see if there are any merge conflicts with another branch before committing.",
+        "priority": "medium",
+        "tags": "",
+        "status": "not started"
     }
 ]
