@@ -331,5 +331,14 @@
         "priority": "medium",
         "tags": "",
         "status": "not started"
+    },
+    {
+        "id": "39",
+        "project": "zoom-leave",
+        "header": "Zoom Leave",
+        "description": "Plugin for zoom (or other implementation) that allows you to leave zoom when there are x number of people in the room.",
+        "priority": "low",
+        "tags": "",
+        "status": "not started"
     }
 ]
